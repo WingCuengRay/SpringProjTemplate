@@ -1,7 +1,7 @@
 
 INSERT INTO Student (id, name, department) VALUES ('40045701', 'Yongcong Lei', 'COMP');
 INSERT INTO Student (id, name, department) VALUES ('40045731', 'Ming Li', 'COMP');
-INSERT INTO Student (id, name, department) VALUES ('40045732', 'San Zhang', 'COMP');
+INSERT INTO Student (id, name, department) VALUES ('40045732', 'Bai Li', 'COMP');
 
 
 INSERT INTO Course (id, name) VALUES ('COMP6551', 'Algorithm');

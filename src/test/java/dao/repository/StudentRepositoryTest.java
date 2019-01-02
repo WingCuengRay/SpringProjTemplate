@@ -25,4 +25,12 @@ public class StudentRepositoryTest {
 
         assertEquals(3, students.size());
     }
+
+    @Test
+    @Transactional
+    public void findStudentEndByLi(){
+        List<Student> students = studentRepository.findStudentEndByLi();
+
+        assertEquals(2, students.size());
+    }
 }
